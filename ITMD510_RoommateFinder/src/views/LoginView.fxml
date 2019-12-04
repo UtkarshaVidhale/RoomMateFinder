@@ -15,7 +15,7 @@
       <Button layoutX="202.0" layoutY="249.0" mnemonicParsing="false" onAction="#login" text="Submit" />
       <Label fx:id="lblError" layoutX="40.0" layoutY="340.0" scaleX="1.5" scaleY="1.5" />
       <PasswordField fx:id="txtPassword" layoutX="202.0" layoutY="166.0" />
-      <Label layoutX="113.0" layoutY="105.0" text="Username" />
+      <Label layoutX="113.0" layoutY="105.0" text="Email ID" />
       <Label layoutX="113.0" layoutY="170.0" text="Password" />
       <Button layoutX="300.0" layoutY="249.0" mnemonicParsing="false" onAction="#signup" text="Sign Up" />
       <Hyperlink layoutX="202.0" layoutY="209.0" text="Forgot Password?" />

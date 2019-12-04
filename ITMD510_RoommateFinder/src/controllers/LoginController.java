@@ -6,7 +6,6 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
-import javafx.scene.control.SplitMenuButton;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import models.LoginModel;
@@ -24,10 +23,6 @@ public class LoginController{
 
 	private LoginModel model;
 	
-	private SplitMenuButton sb_loc;
-	
-
-
 	public LoginController() { model = new LoginModel(); }
 
 	public void login() {
@@ -88,19 +83,6 @@ public class LoginController{
 		try {
 			   AnchorPane root = (AnchorPane) 
 			   FXMLLoader.load(getClass().getResource("/views/RegView.fxml"));
-			   Scene scene = new Scene(root);	  
-			   Main.stage.setScene(scene);
-			   Main.stage.setTitle("Registration");
-			  } catch (Exception e) {
-			  System.out.println("Error occured while inflating LOGOUT view: " +e.getMessage());
-			  }
-	}
-	
-public void cancelRegister() {
-		
-		try {
-			   AnchorPane root = (AnchorPane) 
-			   FXMLLoader.load(getClass().getResource("/views/LoginView.fxml"));
 			   Scene scene = new Scene(root);	  
 			   Main.stage.setScene(scene);
 			   Main.stage.setTitle("Registration");
