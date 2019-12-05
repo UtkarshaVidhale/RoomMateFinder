@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="826.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.UserController">
+   <children>
+      <Label layoutX="344.0" layoutY="14.0" prefHeight="18.0" prefWidth="45.0" scaleX="2.0" scaleY="2.0" text="POST" />
+      <Label layoutX="33.0" layoutY="81.0" text="LOCATION" />
+      <Label layoutX="37.0" layoutY="135.0" text="TYPE" />
+      <Label layoutX="37.0" layoutY="197.0" text="BEDROOMS" />
+      <Label layoutX="36.0" layoutY="257.0" text="WASHROOMS" />
+      <Label layoutX="37.0" layoutY="327.0" text="BEDROOM" />
+      <Label layoutX="34.0" layoutY="395.0" text="WASHROOM" />
+      <Label layoutX="42.0" layoutY="465.0" text="A/C" />
+      <Label layoutX="37.0" layoutY="537.0" text="HEATING" />
+      <Label layoutX="39.0" layoutY="608.0" text="GYM" />
+      <Label layoutX="391.0" layoutY="81.0" text="ELCTRICITY" />
+      <Label layoutX="389.0" layoutY="135.0" text="LAUNDRY" />
+      <Label layoutX="389.0" layoutY="197.0" text="BALCONY" />
+      <Label layoutX="391.0" layoutY="257.0" text="PARKING" />
+      <Label layoutX="389.0" layoutY="327.0" text="WIFI" />
+      <Label layoutX="389.0" layoutY="395.0" text="WATER" />
+      <Label layoutX="390.0" layoutY="465.0" text="GAS" />
+      <Label layoutX="395.0" layoutY="537.0" text="RENT" />
+      <Label layoutX="389.0" layoutY="608.0" text="DEPOSIT" />
+      <Button layoutX="264.0" layoutY="755.0" mnemonicParsing="false" onAction="#createPost" text="Submit" />
+      <TextField layoutX="522.0" layoutY="533.0" />
+      <TextField layoutX="522.0" layoutY="604.0" />
+      <DatePicker layoutX="158.0" layoutY="676.0" prefHeight="26.0" prefWidth="117.0" promptText="Date" />
+      <ChoiceBox fx:id="loc" layoutX="156.0" layoutY="78.0" prefWidth="150.0">
+
+      </ChoiceBox>
+      <ChoiceBox fx:id="type" layoutX="156.0" layoutY="132.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="bed" layoutX="156.0" layoutY="194.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="wash" layoutX="156.0" layoutY="254.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="bedy" layoutX="156.0" layoutY="324.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="washy" layoutX="156.0" layoutY="392.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="ac" layoutX="156.0" layoutY="462.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="heat" layoutX="156.0" layoutY="534.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="gym" layoutX="158.0" layoutY="605.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="ele" layoutX="522.0" layoutY="76.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="laundry" layoutX="522.0" layoutY="134.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="balcony" layoutX="522.0" layoutY="196.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="parking" layoutX="522.0" layoutY="256.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="wifi" layoutX="522.0" layoutY="326.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="water" layoutX="522.0" layoutY="394.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="gas" layoutX="522.0" layoutY="464.0" prefWidth="150.0" />
+      <Label layoutX="39.0" layoutY="681.0" text="Move-In Date" />
+      <Button layoutX="401.0" layoutY="755.0" mnemonicParsing="false" onAction="#cancelPost" text="Cancel" />
+   </children>
+</AnchorPane>
